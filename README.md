@@ -1,8 +1,6 @@
 # good-comments
 ## How to write good comments
 
-https://codepen.io/voula12/pen/djrZGw
-
 * Programs have two audiences, the compiler/interpreter and human readers
 * The program you write should be readable by both
 * Although comments are an initial expense, they can save time/money later
@@ -39,14 +37,17 @@ https://codepen.io/voula12/pen/djrZGw
 ### Comment Types
 
 *Single line comments:
+Written above the code they are designated to explain. Indent them at the same level as the code.
 
     //single line comment
 
 *Inline comments:
+used for quick annotation on small, specific snippets of content. Since the comment should only relate to the exact line it's written on.
 
     const pi = 3.14 //set the constant pi equal to π
 
 *Multiline comments: 
+Written above the code they are designated to explain. Indent them at the same level as the code.
 
     /*
     Normal multiline comment
@@ -101,7 +102,7 @@ The following rules are general guidelines to help achieve a code base that is e
 #### If you can't write a clear comment, there may be a problem with your code.
 
 ### Rule 4:
-#### Comments should dispel confustion, not cause it.
+#### Comments should dispel confusion, not cause it.
 
 ### Rule 5:
 #### Explain code that some may consider redundant.
