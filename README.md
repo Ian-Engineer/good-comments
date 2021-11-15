@@ -31,8 +31,22 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 >   * [About Nuxeo](#about-nuxeo)
 
 ## Commenting Basics
-
+*Single line comments:
     //single line comment
+
+*Inline comments:
+    var pi = 3.14 //set the variable pi equal to π
+
+*Multiline comments: 
+    /*
+    Normal multiline comment
+    Normal multiline comment
+    */
+
+    /**
+    * Standard multiline comment
+    * Standard multiline comment
+    */
 
 ## Usage
 
