@@ -15,7 +15,7 @@ https://codepen.io/voula12/pen/djrZGw
 >   * [Table of contents](#table-of-contents)
 >   * [Commenting Basics](#commenting-basics)
 >     * [Comment Types](#comment-types)
->     * [Comment Hotkeys](comment-hotkeys)
+>     * [Comment Hotkeys](comment-hotkeys-vscode)
 >   * [Comment Usage](#comment-usage)
 >     * [Preface](#preface)
 >     * [Debugging](#debugging)
@@ -33,9 +33,6 @@ https://codepen.io/voula12/pen/djrZGw
 >     * [Rule 10](#rule-10)
 >     * [Rule 11](#rule-11)
 >   * [Resources (Documentation and other links)](#resources-documentation-and-other-links)
->   * [Contributing / Reporting issues](#contributing--reporting-issues)
->   * [License](#license)
->   * [About Nuxeo](#about-nuxeo)
 
 ## Commenting Basics
 
@@ -63,7 +60,7 @@ https://codepen.io/voula12/pen/djrZGw
 
 
 
-### Comment Hotkeys
+### Comment Hotkeys (VSCode)
 
 * Toggle line comment (**ctrl + /**) or (**command + /**)
 * Toggle block comment (**shift+alt+A**)
