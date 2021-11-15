@@ -16,9 +16,9 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 >   * [Synopsis](#how-to-write-good-comments)
 >   * [Table of contents](#table-of-contents)
 >   * [Commenting Basics](#commenting-basics)
-      * [Comment Types](#comment-types)
-      * [Comment Hotkeys](comment-hotkeys-(vscode))
->   * [Usage](#usage)
+>     * [Comment Types](#comment-types)
+>     * [Comment Hotkeys](comment-hotkeys-(vscode))
+>   * [Comment Usage](#comment-usage)
 >     * [Screenshots](#screenshots)
 >     * [Features](#features)
 >   * [Code](#code)
@@ -58,14 +58,17 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 
 ### Comment Hotkeys (VSCode)
 
-* Select multiple lines and press ctrl + /
-* Typing /** will autocomplete multiline comment setup
+* Toggle line comment (**ctrl + /**) or (**command + /**)
+* Toggle block comment (**shift+alt+A**)
+* Typing **/\*\*** will autocomplete multiline comment setup
 
-## Usage
+## Comment Usage
 
-### Screenshots
+### Preface
 
-### Features
+### Debugging
+
+### JSDoc Tags
 
 ## Code
 
