@@ -10,8 +10,6 @@ https://codepen.io/voula12/pen/djrZGw
 
 ## Table of contents
 
-Use for instance <https://github.com/ekalinin/github-markdown-toc>:
-
 > * [Title](#good-comments)
 >   * [Synopsis](#how-to-write-good-comments)
 >   * [Table of contents](#table-of-contents)
