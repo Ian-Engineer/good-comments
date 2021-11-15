@@ -15,7 +15,7 @@ https://codepen.io/voula12/pen/djrZGw
 >   * [Table of contents](#table-of-contents)
 >   * [Commenting Basics](#commenting-basics)
 >     * [Comment Types](#comment-types)
->     * [Comment Hotkeys](comment-hotkeys-vscode)
+>     * [Comment Hotkeys](#comment-hotkeys-vscode)
 >   * [Comment Usage](#comment-usage)
 >     * [Preface](#preface)
 >     * [Debugging](#debugging)
