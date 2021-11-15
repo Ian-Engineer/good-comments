@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+#top {
+  align-content: center;
+  height: 50vh;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#bottom {
+  height: 50vh;
+}
