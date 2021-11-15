@@ -1,30 +1,21 @@
 # good-comments
-A presentation on how to write good comments
+## How to write good comments
 
 https://codepen.io/voula12/pen/djrZGw
 
-# Title / Repository Name
-
-## About / Synopsis
-
-* What is it, what does it do / Abstract
-* Project status: working/prototype
-* Nuxeo Support
-
-See real examples:
-
-* <https://github.com/nuxeo/nuxeo/blob/master/README.md>
-* <https://github.com/nuxeo/nuxeo-drive/blob/master/README.md>
-* <https://github.com/nuxeo/nuxeo-sdk-ios/blob/master/README.md>
+* Programs have two audiences, the compiler/interpreter and human readers
+* The program you write should be readable by both
+* Although comments are an initial expense, they can save time/money later
+* It is important to write comments that are easy to maintain and don't waste time
 
 ## Table of contents
 
 Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 
-> * [Title / Repository Name](#title--repository-name)
->   * [About / Synopsis](#about--synopsis)
+> * [Title](#title--repository-name)
+>   * [Synopsis](#about--synopsis)
 >   * [Table of contents](#table-of-contents)
->   * [Installation](#installation)
+>   * [Commenting Basics](#installation)
 >   * [Usage](#usage)
 >     * [Screenshots](#screenshots)
 >     * [Features](#features)
@@ -39,12 +30,9 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 >   * [License](#license)
 >   * [About Nuxeo](#about-nuxeo)
 
-## Installation
+## Commenting Basics
 
-Sample:
-
-* From the Nuxeo Marketplace: install [the Sample Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-sample).
-* From the command line: `nuxeoctl mp-install nuxeo-sample`
+    //single line comment
 
 ## Usage
 
