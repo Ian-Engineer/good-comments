@@ -12,10 +12,12 @@ https://codepen.io/voula12/pen/djrZGw
 
 Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 
-> * [Title](#title--repository-name)
->   * [Synopsis](#about--synopsis)
+> * [Title](#good-comments)
+>   * [Synopsis](#how-to-write-good-comments)
 >   * [Table of contents](#table-of-contents)
->   * [Commenting Basics](#installation)
+>   * [Commenting Basics](#commenting-basics)
+      * [Comment Types](#comment-types)
+      * [Comment Hotkeys](comment-hotkeys-(vscode))
 >   * [Usage](#usage)
 >     * [Screenshots](#screenshots)
 >     * [Features](#features)
@@ -31,6 +33,9 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 >   * [About Nuxeo](#about-nuxeo)
 
 ## Commenting Basics
+
+### Comment Types
+
 *Single line comments:
 
     //single line comment
@@ -47,9 +52,14 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
     */
 
     /**
-    * Standard multiline comment
-    * Standard multiline comment
-    */
+     * Standard multiline comment
+     * Standard multiline comment
+     */
+
+### Comment Hotkeys (VSCode)
+
+* Select multiple lines and press ctrl + /
+* Typing /** will autocomplete multiline comment setup
 
 ## Usage
 
