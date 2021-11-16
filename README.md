@@ -111,7 +111,7 @@ The following rules are general guidelines to help achieve a code base that is e
 #### Provide links to the original source of copied code.
 
 ### Rule 7:
-#### Include other helpful links.
+#### Include links to external references where they will helpful.
 
 ### Rule 8:
 #### Add comments when fixing bugs.

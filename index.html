@@ -23,7 +23,7 @@
           <div>%</div>
         </div>
       </span>
-      <button type="button" onClick="onClickCalculate()">Calculate!</button>
+      <button type="button" onClick="onClickCalculate(Number(document.getElementById('totalInput').value), Number(document.getElementById('percentInput').value)/100)">Calculate!</button>
       <span id="results">
         <div id="resultsTitle">Results:</div>
         <div>
