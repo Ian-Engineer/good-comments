@@ -29,7 +29,6 @@
 >     * [Rule 8](#rule-8)
 >     * [Rule 9](#rule-9)
 >     * [Rule 10](#rule-10)
->     * [Rule 11](#rule-11)
 >   * [Resources (Documentation and other links)](#resources-documentation-and-other-links)
 
 ## Comment Basics
@@ -39,7 +38,10 @@
 *Single line comments:
 Written above the code they are designated to explain. Indent them at the same level as the code.
 
-    //single line comment
+    //conditional statement doing a certain thing
+    if (true) {
+
+    }
 
 *Inline comments:
 used for quick annotation on small, specific snippets of content. Since the comment should only relate to the exact line it's written on.
@@ -89,40 +91,49 @@ This is beyond the scope of this presentation. But in summary, using @ and a tag
 
 The following rules are general guidelines to help achieve a code base that is easily readable by a human, easy to maintain, and not a huge expenese.
 
-### Rule 11:
+### Rule 1:
 #### Comment often.
-
-### Rule 1: 
-#### Comments should not duplicate code.
+Bare minimum is including a comment everytime you make a new block of code. Explain what you are doing and why.
 
 ### Rule 2: 
-#### Good comments don't excuse bad code.
+#### Include linkes to external references where they will be helpful.
+If you use a link as a reference while coding, include it as a comment. That way, if someone else is reviewing your code later, or you are revisiting it, you know why you wrote this code in a certain way.
 
-### Rule 3:
-#### If you can't write a clear comment, there may be a problem with your code.
+### Rule 3: 
+#### Comments should dispel confusion, not cause it.
+Make your comments as clear and concise as possible. Don't use language that people may not understand.
 
 ### Rule 4:
-#### Comments should dispel confusion, not cause it.
+#### Good comments don't excuse bad code.
+Just name your variables.
 
 ### Rule 5:
-#### Explain code that some may consider redundant.
+#### Comment what portions of code can be customized for client preference.
+Make note of what variables or functions can be customized and how. Clients or supervisors will likely want to see other variations, and making these customizations easy to find will help you down the road.
 
 ### Rule 6:
-#### Provide links to the original source of copied code.
+#### Comments should not duplicate code.
+Don't do this:
+
+    i = i + 1 //add 1 to i
+
+Repeating yourself in comments creates more work for yourself later. If you have to go back a refactor code, you will also have to refactor your comments. Also if it is VERY clear what is happening in your code, there is no need to make a comment, see the example above.
 
 ### Rule 7:
-#### Include links to external references where they will helpful.
+#### Add comments when fixing bugs.
+If you encounter a bug in your code, leave a comment indicating what it is. Once you fix the bug, add a note stating how you fixed it. That way, in review, someone will know why the code is the way that it is, and whether or not it can be removed.
 
 ### Rule 8:
-#### Add comments when fixing bugs.
+#### Provide links to the original source of copied code.
+Everyone copies code from stack overflow and other resources. Make sure to keep a link to where you got your code. It provides a lot more context when you revisit the code, or its being reviewed. Someone can easily find what the problem was initially that you looked up, as well as if there are other solutions available.
 
 ### Rule 9:
-#### Use comments to mark incomplete implemenations
+#### If you can't write a clear comment, there may be a problem with your code.
+DO NOT COPY AND PASTE CODE THAT YOU DON'T UNDERSTAND. If you can't explain the code, how do you plan on debugging it when it breaks? 
 
 ### Rule 10:
-#### Comment what portions of code can be customized for client preference.
-
-
+#### Use comments to mark incomplete implemenations.
+Make use of your own tags to help keep your code, and yourself organized. You can use a TODO tag to easily list items that need to be implemented. When coming back to work on this code, you can search "TODO" and pick up right where you left off. Make sure everyone on your team is on board with what tags are being used. You can use additional tags such as, AUTHOR, DATECREATED, etc., track any information you want to track.
 
 ## Resources (Documentation and other links)
 

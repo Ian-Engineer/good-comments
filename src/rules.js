@@ -1,16 +1,15 @@
 //declare a rule array that houses all of the rules
 const rules = {
   1: "Comment often.",
-  4: "Comments should not duplicate code.",
-  5: "Good comments don't excuse bad code.",
-  8: "If you can't write a clear comment, there may be a problem with your code.",
-  2: "Comments should dispel confusion, not cause it.",
-  6: "Explain code that some may consider redundant.",
-  7: "Provide links to the original source of copied code.",
-  3: "Include links to external references where they will helpful.",
-  9: "Add comments when fixing bugs.",
+  2: "Include links to external references where they will helpful.",
+  3: "Comments should dispel confusion, not cause it.",
+  4: "Good comments don't excuse bad code.",
+  5: "Comments should not duplicate code.",
+  6: "Comment what portions of code can be customized for client preference.",
+  7: "Add comments when fixing bugs.",
+  8: "Provide links to the original source of copied code.",
+  9: "If you can't write a clear comment, there may be a problem with your code.",
   10: "Use comments to mark incomplete implementations.",
-  11: "Comment what portions of code can be customized for client preference."
 };
 
 //count is used to track which rule will be shown next
